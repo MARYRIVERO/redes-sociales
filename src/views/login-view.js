@@ -47,28 +47,5 @@ export default () => {
   const divElement = document.createElement('div');
   divElement.className = 'container';
   divElement.innerHTML = viewLogin;
-//   /* const loginForm = divElement.querySelector('#form-autentication'); */
-//   const menssageError = divElement.querySelector('#mensaje-error');
-//   const btnLogin = divElement.querySelector('#button-login');
-//   const google = divElement.querySelector('#google');
-//   const facebook = divElement.querySelector('#facebook');
-
-//   btnLogin.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     const email = divElement.querySelector('input[type="email"]').value;
-//     const password = divElement.querySelector('input[type="password"]').value;
-//     loginFunction(email, password, menssageError);
-//     /* alert(' Te has logeado'); */
-//   });
-
-//   google.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     loginWithGmail();
-//   });
-//   facebook.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     loginFacebook();
-//   });
-
-//   return divElement;
+  return divElement;
 };

@@ -39,15 +39,20 @@ body {
         width: 40%;
         min-width: fit-content;
         padding: 0;
-        /* overflow: auto; */
-        border-radius: 1em;
+        /*overflow: auto;
+        */border-radius: 1em;
         background:rgb(127, 166, 216);
         display: flex;
         justify-content: center;
-        /* background-color: rgba(127,166, 216, 0.4); */
-        /* border: 4px double blue; */
-         /* margin-top: 1.5em; */
-    }
+        /*background-color: rgba(127,166, 216, 0.4);
+        *//*border: 4px double blue;
+        *//*margin-top: 1.5em;
+         */ 
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+}
     .container-login .avatar{
         display:none;
     }
@@ -446,3 +451,4 @@ header {
     border-radius: 2em;
     border: 2px solid rgb(102, 156, 226);
     padding: 1em;
+}
