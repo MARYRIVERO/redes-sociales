@@ -12,8 +12,8 @@ export default () => {
         <form class="form" id="form-register" action="post">
           <img class="avatar" src="./img/online-menu-big.png" alt="placeholder image">
           <div class="titles">
-            <h1 class="title-app">~Bon-a-Petit~</h1>
-            <h3>Red Social para Restaurants y Food Trucks</h3>
+          <h1 class="title-app">~Patitas Arriba~</h1>
+          <h3>Red Social para amantes de mascotas</h3>
             <h2>Registrate</h2>
           </div>
           <div class="input-wrapper">

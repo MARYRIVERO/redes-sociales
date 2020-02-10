@@ -11,8 +11,8 @@ export default () => {
             <form class="form" id="form-autentication" class="form-autentication" action="post">
               <img class="avatar" src="./img/online-menu-big.png" alt="SVG image of an Smartphone with a restaurant menu on the creen and a fork to the side">
             <div class="titles">
-                <h1 class="title-app">~Bon-a-Petit~</h1>
-                <h3>Red Social para Restaurants y Food Trucks</h3>
+                <h1 class="title-app">~Patitas Arriba~</h1>
+                <h3>Red Social para amantes de mascotas</h3>
             </div>
             <div class="input-wrapper">
                 <!--<label for="email"> Ingrese su correo: </label>-->

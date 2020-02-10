@@ -41,7 +41,7 @@ body {
         padding: 0;
         /*overflow: auto;
         */border-radius: 1em;
-        background:rgb(127, 166, 216);
+        background:rgb(193, 199, 207);
         display: flex;
         justify-content: center;
         /*background-color: rgba(127,166, 216, 0.4);
@@ -146,7 +146,7 @@ body {
         text-align: center;
         text-transform: uppercase;
         color:#2f4f4f;
-        background: #ffde49;
+        background: #1987cf;
         padding: 0em 1.5em 0em 1.5em;
         transition: all .8s;
         /* border: 3px dotted red; */

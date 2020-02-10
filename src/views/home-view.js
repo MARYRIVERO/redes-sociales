@@ -2,7 +2,7 @@ export default () => {
 // console.log(datos);
   const homeView = `<header>
   <nav class="topnav" id="myTopnav">
-    <a href="#/home" class="active">~Bon-a-Petit~</a>
+    <a href="#/home" class="active">~Patitas Arriba</a>
     <div class="dropdown" id="button-nav">
       <button class="dropbtn"> 
       MENU 
