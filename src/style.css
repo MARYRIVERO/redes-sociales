@@ -55,6 +55,7 @@ body {
 }
     .container-login .avatar{
         display:none;
+
     }
     .img{
         width:50%;
@@ -98,7 +99,6 @@ body {
         text-align: center;
         margin-top: .5em;
         color:darkslategray;
-        /* margin:1em 0 0.5em 0; */
     }
     .titles h3{
         padding: .5em;
@@ -235,6 +235,7 @@ body {
         }
         .container-login .avatar{
             display:block;
+            margin: 1em 0 0.5em 0;
         }
         .form{
             padding: 0 1em 0 1em;
@@ -255,6 +256,7 @@ body {
     }
     .titles .title-app{
         font-size:  2em;
+        margin: 0em 0 0em 0;
     }
     .titles h3{
     word-break: break-word;
