@@ -7,8 +7,7 @@
     font-size: 16px;
 }
 body {
-    /* background-color: rgb(198, 236, 223); */
-    background: linear-gradient(70deg, rgb(237, 255, 249), white,rgb(237, 255, 249));
+    /* background-color:rgb(178, 240, 219),; */
     height: 100%;
     width: 100%;
     
@@ -20,6 +19,7 @@ body {
     flex-wrap: wrap;
     margin:0;
     padding: 0;
+    background: linear-gradient(70deg, rgb(178, 240, 219), white,rgb(237, 255, 249));
     /* justify-content: space-evenly; */
     /* padding:1.5em 1em 1em 1em; */
     /* border: 5px dotted red;  */
@@ -41,7 +41,7 @@ body {
         padding: 0;
         /*overflow: auto;
         */border-radius: 1em;
-        background:rgb(193, 199, 207);
+        background:rgb(123, 218, 205);
         display: flex;
         justify-content: center;
         /*background-color: rgba(127,166, 216, 0.4);
@@ -145,8 +145,7 @@ body {
         line-height: 1.5;
         text-align: center;
         text-transform: uppercase;
-        color:#2f4f4f;
-        background: #1987cf;
+        background: #02bda4;
         padding: 0em 1.5em 0em 1.5em;
         transition: all .8s;
         /* border: 3px dotted red; */
