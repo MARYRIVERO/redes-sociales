@@ -5,11 +5,11 @@ export default () => {
   <div class="wrapper">
         <div class="img">
           <img src = "./img/side_image2.svg"
-          alt = "SVG image of different prepared dishes and a hand holding a smartphone"/>
+          alt = "SVG image of dogs of different breeds"/>
         </div>
         <div class="container-login">
             <form class="form" id="form-autentication" class="form-autentication" action="post">
-              <img class="avatar" src="./img/online-menu-big.png" alt="SVG image of an Smartphone with a restaurant menu on the creen and a fork to the side">
+              <img class="avatar" src="./img/online-dog-happy.png" alt="PNG image of a brown dog">
             <div class="titles">
                 <h1 class="title-app">~Patitas Arriba~</h1>
                 <h3>Red Social para amantes de mascotas</h3>
