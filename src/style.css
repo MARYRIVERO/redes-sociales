@@ -7,11 +7,10 @@
     font-size: 16px;
 }
 body {
-    /* background-color: rgb(198, 236, 223); */
-    background: linear-gradient(70deg, rgb(237, 255, 249), white,rgb(237, 255, 249));
-    height: 100%;
+    /* background-color:rgb(178, 240, 219),; */
+    height: 100vh;
     width: 100%;
-    
+    background: linear-gradient(70deg, rgb(178, 240, 219), white,rgb(237, 255, 249));
 }    
 .container{
     width: 100%;
@@ -41,7 +40,7 @@ body {
         padding: 0;
         /*overflow: auto;
         */border-radius: 1em;
-        background:rgb(193, 199, 207);
+        background:rgb(123, 218, 205);
         display: flex;
         justify-content: center;
         /*background-color: rgba(127,166, 216, 0.4);
@@ -55,6 +54,7 @@ body {
 }
     .container-login .avatar{
         display:none;
+
     }
     .img{
         width:50%;
@@ -98,7 +98,6 @@ body {
         text-align: center;
         margin-top: .5em;
         color:darkslategray;
-        /* margin:1em 0 0.5em 0; */
     }
     .titles h3{
         padding: .5em;
@@ -145,8 +144,7 @@ body {
         line-height: 1.5;
         text-align: center;
         text-transform: uppercase;
-        color:#2f4f4f;
-        background: #1987cf;
+        background: #02bda4;
         padding: 0em 1.5em 0em 1.5em;
         transition: all .8s;
         /* border: 3px dotted red; */
@@ -236,6 +234,7 @@ body {
         }
         .container-login .avatar{
             display:block;
+            margin: 1em 0 0.5em 0;
         }
         .form{
             padding: 0 1em 0 1em;
@@ -256,6 +255,7 @@ body {
     }
     .titles .title-app{
         font-size:  2em;
+        margin: 0em 0 0em 0;
     }
     .titles h3{
     word-break: break-word;
@@ -271,7 +271,7 @@ header {
 }
 .topnav {
     overflow: hidden;
-    background-color: rgb(120, 169, 233);
+    background-color: rgb(123, 218, 205);
     width: 100%;
     height:4em;
     display:flex;
@@ -283,7 +283,7 @@ header {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000;
     text-align: center;
     padding: 0.5em 5.4em;
     text-decoration: none;
@@ -301,14 +301,14 @@ header {
     z-index: 1;
 }
 .topnav a:hover {
-    background-color:  #ffde49;
+    background-color:  #b1b1b0;
     color: black;
 }
 .topnav a.active {
-    background-color: #ffde49;
+    background-color: #b1b1b0;
     font-family: 'Pacifico', cursive;
     font-size: 1.5em;
-    color: darkslategray;
+    color: #FFF;
     font-weight: 200;
 }
 .topnav .icon {
@@ -336,7 +336,7 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #ffde49;
+    background-color: #b1b1b0;
 }
 .dropdown:hover .dropdown-content {
     display: block;

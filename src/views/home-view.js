@@ -1,3 +1,4 @@
+import { signOut } from '../model/user-authentication.js';
 
 export default () => {
   const homeView = `<header>

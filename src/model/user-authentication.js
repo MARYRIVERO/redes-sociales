@@ -18,7 +18,9 @@ export const userCurrent = () => firebase.auth().currentUser;
 export const signInUser = (email, password) => (
   firebase.auth().signInWithEmailAndPassword(email, password)
 );
-
+export const signOut = () => (
+  firebase.auth().signOut()
+);
 export const signInWithGoogle = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
   return firebase.auth().signInWithPopup(provider);
