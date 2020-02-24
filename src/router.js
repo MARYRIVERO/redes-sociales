@@ -1,5 +1,8 @@
 
 import { components } from './views/components.js';
+import { getInfoUser } from './model/model-post.js';
+import { userObserver } from './controller-app/observador.js';
+
 
 const changeView = (route) => {
   const container = document.getElementById('container');
@@ -13,7 +16,23 @@ const changeView = (route) => {
       break;
     case '#/home': container.appendChild(components.home());
       break;
-    default: container.appendChild(components.home());
+    case '#/profile': {
+      const userInformation = (id) => {
+        //  console.log(id);
+        getInfoUser(id)
+          .then((response) => {
+            const dataUser = response.data();
+            container.appendChild(components.profile(dataUser));
+          })
+        // eslint-disable-next-line no-unused-vars
+          .catch((error) => {
+            // console.log(error);
+          });
+      };
+      userObserver(userInformation);
+    }
+      break;
+    default: container.appendChild(components.notfound());
       break;
   }
 };
