@@ -1,6 +1,6 @@
 import { signOut } from '../model/user-authentication.js';
 
-export default (user) => {
+export default () => {
   const homeView = `<header>
   <nav class="topnav" id="myTopnav">
     <a href="#/home" class="active">~Patitas Arriba</a>
@@ -18,13 +18,13 @@ export default (user) => {
   <section class="box-home">
   <div class="box-profile">
       <div class="banner-profile">
-        <img class="banner-img" src="./img/Food-Delivery-350x150.jpg" alt="User Banner Image">
+        <img class="banner-img" src="./img/perritos-350x150.jpg" alt="User Banner Image">
       </div>
       <div class="info-profile">
-      <img src=${user.Photo === null ? './img/profile-user2.svg' : user.Photo} class="user-icon"/>
+      <img src='./img/profile-user2.svg' class="user-icon"/>
         <div id="info-profile" class="user-name">
-        <h1 id = "userName">${user.Name}</h1>
-        <h1 id = "email">${user.Email}</h1>
+        <h1 id = "userName"></h1>
+        <h1 id = "email"></h1>
         </div>
       </div>
   </div>
@@ -32,7 +32,7 @@ export default (user) => {
   <div class="feed">
   
       <div class="box-create-publication">
-        <label for="publication-text"> ${user.Name} dice: </label>
+        <label for="publication-text"> dice: </label>
         <textarea id="publication-text" name="publication" class="publication" placeholder="Escribe tu mensaje aquí" cols="30" rows="5"></textarea>
         <button class="btn-add-image pull-left" type="submit"></button>
         <label for="private">PRIVADO<input type="checkbox" name="private" id="private" value="true"></label>
