@@ -6,12 +6,12 @@ export default () => {
     <a href="#/home" class="active">~Patitas Arriba</a>
     <div class="dropdown" id="button-nav">
       <button class="dropbtn"> 
-      MENU 
+      MENU
       </button>
       <div class="dropdown-content" id="button-nav-content">
         <a id="user-profile" href="#/profile">Mi perfil</a>
         <a id="sign-out" href="#/">Cerrar sesión</a>
-      </div>git 
+      </div>
     </div>
   </nav>
   </header>
