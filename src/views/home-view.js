@@ -1,5 +1,5 @@
+
 export default () => {
-// console.log(datos);
   const homeView = `<header>
   <nav class="topnav" id="myTopnav">
     <a href="#/home" class="active">~Patitas Arriba</a>
@@ -10,20 +10,20 @@ export default () => {
       <div class="dropdown-content" id="button-nav-content">
         <a id="user-profile" href="#/profile">Mi perfil</a>
         <a id="sign-out" href="#/">Cerrar sesión</a>
-      </div>
+      </div>git 
     </div>
   </nav>
   </header>
   <section class="box-home">
   <div class="box-profile">
       <div class="banner-profile">
-        <img class="banner-img" src="./img/Food-Delivery-350x150.jpg" alt="User Banner Image">
+        <img class="banner-img" src="./img/perritos-350x150.jpg" alt="User Banner Image">
       </div>
       <div class="info-profile">
-        <img src='./img/profile-user2.svg' class="user-icon"/>
+      <img src='./img/profile-user2.svg' class="user-icon"/>
         <div id="info-profile" class="user-name">
-          <h1 id = "userName"</h1>
-          <h1 id = "email"</h1>
+        <h1 id = "userName"></h1>
+        <h1 id = "email"></h1>
         </div>
       </div>
   </div>
@@ -53,7 +53,31 @@ export default () => {
   divElement.innerHTML = homeView;
 
   const btnNav = divElement.querySelector('#button-nav');
+  const btnCerrarSesion = divElement.querySelector('#sign-out');
+  const btnProfile = divElement.querySelector('#user-profile');
+  // const sendtextPost = divElement.querySelector('#send-text-post');
 
+  // sendtextPost.addEventListener('click', (e) => {
+  //   e.preventDefault();
+  //   const textPost = divElement.querySelector('#publication-text').value;
+  //   addTextPost(textPost, user.ID, user.Name, false);
+  // });
+
+  // const postElement = divElement.querySelector('#test');
+  // datos.forEach((doc) => {
+  //   postElement.appendChild(setupPost(doc));
+  // });
+
+  btnProfile.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.hash = '#/profile';
+  });
+
+  btnCerrarSesion.addEventListener('click', (e) => {
+    e.preventDefault();
+    signOut();
+    window.location.hash = '#/';
+  });
   btnNav.addEventListener('click', (e) => {
     e.preventDefault();
     const x = document.getElementById('button-nav-content');
