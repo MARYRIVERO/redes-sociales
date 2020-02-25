@@ -47,9 +47,9 @@ export const loginWithGmail = () => {
           console.log('se registro documento');
           window.location.hash = '#/home';
         })
-        .catch(() => {
+        .catch((e) => {
           // eslint-disable-next-line no-console
-          console.log('se produjo un error');
+          console.log(e, 'se produjo un error');
         });
     })
     // eslint-disable-next-line no-unused-vars

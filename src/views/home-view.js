@@ -77,7 +77,7 @@ export default () => {
   btnCerrarSesion.addEventListener('click', (e) => {
     e.preventDefault();
     signOut();
-    window.location.hash = '#/';
+    window.location.hash = '';
   });
   btnNav.addEventListener('click', (e) => {
     e.preventDefault();
